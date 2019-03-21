@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Task Two </title>
+   
+</head>
+
+<body>
+    <form action = "http://localhost:5000/start" method = "post" target="_blank">
+       
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Range</th>
+                <th scope="col">First parameter</th>
+                <th scope="col">Second parameter </th>
+                <th scope="col">Third parameter</th>
+                <th scope="col">Fourth parameter </th>
+                <th scope="col">Fifth parameter</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">MIN</th>
+                <td><input type="text" name="min_v1"></td>
+                <td><input type="text" name="min_v2"></td>
+                <td><input type="text" name="min_v3"></td>
+                <td><input type="text" name="min_v4"></td>
+                <td><input type="text" name="min_v5"></td>
+              </tr>
+              <tr>
+                <th scope="row">MAX</th>
+                <td><input type="text" name="max_v1"></td>
+                <td><input type="text" name="max_v2"></td>
+                <td><input type="text" name="max_v3"></td>
+                <td><input type="text" name="max_v4"></td>
+                <td><input type="text" name="max_v5"></td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <input  type="submit" value='Start'>
+    </form>
+    
+    <form action = "http://localhost:5000/stop" method = "post" target="_blank">
+       
+        <input  type="submit" value='Stop'>
+    
+    </form>
+    
+    
+</body>
+
+</html>
